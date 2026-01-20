@@ -3,7 +3,7 @@
 
 This repository contains the source code and digitized datasets for the **Generalized Transport Framework** developed to analyze ion conduction in pectin-based polymer electrolytes.
 
-The model utilizes a modified continuum percolation theory to quantify transport suppression and introduces the **Valency Penalty Index (VPI)** as a comparative metric for monovalent (Li$^+_4^+^{2+}^{2+}$) systems.
+The model utilizes a modified continuum percolation theory to quantify transport suppression and introduces the **Valency Penalty Index (VPI)** as a comparative metric for monovalent and divalent systems.
 
 ## 📄 Associated Publication
 
