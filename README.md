@@ -52,9 +52,7 @@ python src/model_fitting.py
 
 ## 🔗 Citation
 
-If you use this code or the VPI framework in your research, please cite the following paper:
-
-> Sivakumar, J. (2026). Generalized Transport Modeling of Monovalent and Divalent Ion Conduction in Pectin Biopolymer Electrolytes. *[Journal/ArXiv Name]*.
+Waiting...
 
 ## 📜 License
 
