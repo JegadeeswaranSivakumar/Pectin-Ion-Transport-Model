@@ -1,5 +1,64 @@
-Generalized Transport Modeling of Monovalent and Divalent Ion ConductionThis repository contains the source code and digitized datasets for the Generalized Transport Framework developed to analyze ion conduction in pectin-based polymer electrolytes.The model utilizes a modified continuum percolation theory to quantify transport suppression and introduces the Valency Penalty Index (VPI) as a comparative metric for monovalent (Li$^+$, NH$_4^+$) and divalent (Mg$^{2+}$, Zn$^{2+}$) systems.📄 Associated PublicationTitle: Generalized Transport Modeling of Monovalent and Divalent Ion Conduction in Pectin Biopolymer ElectrolytesAuthor: Jegadeeswaran SivakumarPreprint/Journal: [Insert ArXiv or Journal Link Here once available]Date: January 2026🚀 Key FeaturesModified Percolation Model: Implements the transport equation: $\sigma(x) = A (x - x_c)^t \exp(-Bx)$.Valency Penalty Index (VPI): Calculates the dimensionless parameter $VPI = B/A$ to quantify charge-driven transport suppression.Automated Fitting: Uses scipy.optimize (Bounded Non-Linear Least Squares) to extract transport parameters from raw conductivity data.Visualization: Generates salt-resolved conductivity plots and comparisons.📂 Repository Structuredata/: Contains digitized conductivity datasets (.csv) for Li, NH4, Mg, and Zn systems.src/: Main Python scripts for model fitting and plotting.results/: Output plots and parameter logs.💻 UsagePrerequisitesPython 3.8+NumPy, SciPy, Matplotlib, PandasInstallationBashgit clone https://github.com/YourUsername/Pectin-Ion-Transport-Model.git
+
+# Generalized Transport Modeling of Monovalent and Divalent Ion Conduction
+
+This repository contains the source code and digitized datasets for the **Generalized Transport Framework** developed to analyze ion conduction in pectin-based polymer electrolytes.
+
+The model utilizes a modified continuum percolation theory to quantify transport suppression and introduces the **Valency Penalty Index (VPI)** as a comparative metric for monovalent (Li$^+_4^+^{2+}^{2+}$) systems.
+
+## 📄 Associated Publication
+
+**Title:** Generalized Transport Modeling of Monovalent and Divalent Ion Conduction in Pectin Biopolymer Electrolytes
+**Author:** Jegadeeswaran Sivakumar
+**Preprint/Journal:** *[Insert ArXiv or Journal Link Here once available]*
+**Date:** January 2026
+
+## 🚀 Key Features
+
+* **Modified Percolation Model:** Implements the transport equation: .
+* **Valency Penalty Index (VPI):** Calculates the dimensionless parameter  to quantify charge-driven transport suppression.
+* **Automated Fitting:** Uses `scipy.optimize` (Bounded Non-Linear Least Squares) to extract transport parameters from raw conductivity data.
+* **Visualization:** Generates salt-resolved conductivity plots and comparisons.
+
+## 📂 Repository Structure
+
+* `data/`: Contains digitized conductivity datasets (`.csv`) for Li, NH4, Mg, and Zn systems.
+* `src/`: Main Python scripts for model fitting and plotting.
+* `results/`: Output plots and parameter logs.
+
+## 💻 Usage
+
+### Prerequisites
+
+* Python 3.8+
+* NumPy, SciPy, Matplotlib, Pandas
+
+### Installation
+
+```bash
+git clone https://github.com/YourUsername/Pectin-Ion-Transport-Model.git
 cd Pectin-Ion-Transport-Model
 pip install -r requirements.txt
-Running the ModelBashpython src/model_fitting.py
-This script will load the datasets, perform the non-linear regression, and output the fitted parameters ($A$, $B$, VPI) to the console and results/ folder.🔗 CitationIf you use this code or the VPI framework in your research, please cite the following paper:Sivakumar, J. (2026). Generalized Transport Modeling of Monovalent and Divalent Ion Conduction in Pectin Biopolymer Electrolytes. [Journal/ArXiv Name].📜 LicenseThis project is licensed under the MIT License - see the LICENSE file for details.
+
+```
+
+### Running the Model
+
+```bash
+python src/model_fitting.py
+
+```
+
+*This script will load the datasets, perform the non-linear regression, and output the fitted parameters (, , VPI) to the console and `results/` folder.*
+
+## 🔗 Citation
+
+If you use this code or the VPI framework in your research, please cite the following paper:
+
+> Sivakumar, J. (2026). Generalized Transport Modeling of Monovalent and Divalent Ion Conduction in Pectin Biopolymer Electrolytes. *[Journal/ArXiv Name]*.
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+
+---
+
