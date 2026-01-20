@@ -7,10 +7,7 @@ The model utilizes a modified continuum percolation theory to quantify transport
 
 ## 📄 Associated Publication
 
-**Title:** Generalized Transport Modeling of Monovalent and Divalent Ion Conduction in Pectin Biopolymer Electrolytes
-**Author:** Jegadeeswaran Sivakumar
-**Preprint/Journal:** *[Insert ArXiv or Journal Link Here once available]*
-**Date:** January 2026
+Waiting...
 
 ## 🚀 Key Features
 
