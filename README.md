@@ -7,7 +7,7 @@ The model utilizes a modified continuum percolation theory to quantify transport
 
 ## 📄 Associated Publication
 
-Waiting...
+[Waiting...](https://doi.org/10.21203/rs.3.rs-8651772/v1)
 
 ## 🚀 Key Features
 
