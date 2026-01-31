@@ -49,7 +49,7 @@ python src/model_fitting.py
 
 ## 🔗 Citation
 
-Waiting...
+Jegadeeswaran Sivakumar. Generalized Transport Modeling of Monovalent and Divalent Ion Conduction in Pectin Biopolymer Electrolytes, 21 January 2026, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-8651772/v1]
 
 ## 📜 License
 
